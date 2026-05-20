@@ -1,6 +1,6 @@
 /**
- * CyberBot – Cybersecurity FAQ Chatbot (50+ Answers + Quick Replies)
- * Author: Yusuf Abdullah Olaniyi
+ * CyberBot – Cybersecurity FAQ Chatbot (50+ Answers & Quick Replies)
+ * Developer: Yusuf A.O
  */
 
 const chatBody = document.getElementById("chatBody");
@@ -62,14 +62,15 @@ const qaPairs = [
     { keywords: ["blockchain", "web3"], answer: "Blockchain is a decentralized ledger. It can improve integrity and transparency, but smart contracts must be audited for bugs." },
     { keywords: ["career", "job", "start"], answer: "Start with fundamentals: networking, OS, programming (Python). Get certifications like CompTIA Security+, then specialize." },
     { keywords: ["certification", "cert"], answer: "Popular cybersecurity certs: CompTIA Security+, CEH, CISSP, OSCP. They validate skills and help you land jobs." },
-    { keywords: ["hello", "hi", "hey", "What's up"], answer: "Hey there! I'm CyberBot. Ask me anything about cybersecurity! 🔐" },
+    { keywords: ["hello", "hi", "hey", "what's up"], answer: "Hey there! I'm CyberBot. Ask me anything about cybersecurity! 🔐" },
     { keywords: ["thank", "thanks"], answer: "You're welcome! Happy to help. 😊" },
     { keywords: ["bye", "see you"], answer: "Bye! Stay safe online and remember: think before you click. 👋" },
-    { keywords: ["created", "develop", "developer", "creator"], answer: "I'm CyberBot, a simple rule‑based chatbot created by Yusuf Olaniyi to teach cybersecurity basics." },
+    { keywords: ["created", "develop", "developer", "creator"], answer: "I'm CyberBot, a simple chatbot created by Abdullah (Upin) to teach cybersecurity basics." },
     { keywords: ["safe online", "stay safe"], answer: "To stay safe online: use strong, unique passwords; enable 2FA; update software; don't click suspicious links; and use a VPN on public Wi‑Fi." },
+    { keywords: ["maalu", "obo"], answer: "Yes, That's my name but goats call me Radhiyah :)" },
 ];
 
-const fallbackAnswer = "🤔 I don't have an answer for that yet. Try asking about phishing, firewall, malware, password, encryption, VPN, hacking, or certifications. I'm learning new topics every day!";
+const fallbackAnswer = ":( I don't have an answer for that yet. Try asking about phishing, firewall, malware, password, encryption, VPN, hacking, or certifications. I'm learning new topics every day!";
 
 // ---------- HELPERS ----------
 function getAnswer(userText) {
