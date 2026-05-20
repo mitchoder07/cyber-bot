@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberBot – Cybersecurity FAQ Chatbot | Yusuf A.O</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="bot-avatar">
+                <img src="bot-avatar.svg" alt="CyberBot Avatar">
+            </div>
+            <div>
+                <h2>CyberBot</h2>
+                <p class="subtitle">Your friendly Cybersecurity assistant</p>
+            </div>
+        </header>
+
+        <div class="chat-body" id="chatBody">
+            <div class="message bot">
+                <div class="msg-content">
+                    👋 Hello! I'm CyberBot. Ask me anything about cybersecurity basics, or click a suggestion below.
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick‑reply buttons -->
+        <div class="quick-replies" id="quickReplies">
+            <button class="quick-btn">What is phishing?</button>
+            <button class="quick-btn">How do I stay safe online?</button>
+            <button class="quick-btn">What is a firewall?</button>
+            <button class="quick-btn">Tell me about malware</button>
+            <button class="quick-btn">What's a VPN?</button>
+            <button class="quick-btn">Career tips</button>
+        </div>
+
+        <div class="chat-input-area">
+            <input type="text" id="userInput" placeholder="Type your question..." autocomplete="off">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+
+    <a href="https://upin-portfolio.vercel.app/" class="back-link">← Back to Portfolio</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
