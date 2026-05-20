@@ -62,7 +62,7 @@ const qaPairs = [
     { keywords: ["blockchain", "web3"], answer: "Blockchain is a decentralized ledger. It can improve integrity and transparency, but smart contracts must be audited for bugs." },
     { keywords: ["career", "job", "start"], answer: "Start with fundamentals: networking, OS, programming (Python). Get certifications like CompTIA Security+, then specialize." },
     { keywords: ["certification", "cert"], answer: "Popular cybersecurity certs: CompTIA Security+, CEH, CISSP, OSCP. They validate skills and help you land jobs." },
-    { keywords: ["hello", "hi", "hey", "yo"], answer: "Hey there! I'm CyberBot. Ask me anything about cybersecurity! 🔐" },
+    { keywords: ["hello", "hi", "hey", "What's up"], answer: "Hey there! I'm CyberBot. Ask me anything about cybersecurity! 🔐" },
     { keywords: ["thank", "thanks"], answer: "You're welcome! Happy to help. 😊" },
     { keywords: ["bye", "see you"], answer: "Bye! Stay safe online and remember: think before you click. 👋" },
     { keywords: ["created", "develop", "developer", "creator"], answer: "I'm CyberBot, a simple rule‑based chatbot created by Yusuf Olaniyi to teach cybersecurity basics." },
