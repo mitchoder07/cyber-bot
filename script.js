@@ -65,7 +65,7 @@ const qaPairs = [
     { keywords: ["hello", "hi", "hey", "yo"], answer: "Hey there! I'm CyberBot. Ask me anything about cybersecurity! 🔐" },
     { keywords: ["thank", "thanks"], answer: "You're welcome! Happy to help. 😊" },
     { keywords: ["bye", "see you"], answer: "Bye! Stay safe online and remember: think before you click. 👋" },
-    { keywords: ["who are you", "what are you", "your name"], answer: "I'm CyberBot, a simple rule‑based chatbot created by Yusuf Olaniyi to teach cybersecurity basics." },
+    { keywords: ["created", "develop", "developer", "creator"], answer: "I'm CyberBot, a simple rule‑based chatbot created by Yusuf Olaniyi to teach cybersecurity basics." },
     { keywords: ["safe online", "stay safe"], answer: "To stay safe online: use strong, unique passwords; enable 2FA; update software; don't click suspicious links; and use a VPN on public Wi‑Fi." },
 ];
 
